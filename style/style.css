@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-size: 100%;
@@ -134,4 +137,64 @@ body{
 
 .cp3-img {
     height: 370px;
+}
+.section{
+    min-height: 100px;
+    padding-bottom: 5%;
+}
+
+.title-clients{
+    margin:auto;
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+.client-declaration{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 120%;
+    width: 80%;
+    color: #5a5858;
+}
+.clientes{
+    font-size: 500%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-bottom: 7px solid #003037;
+    padding-bottom: 2%;
+    position: relative;
+    margin-bottom: 5%;
+    font-family: 'habibi', serif;
+    font-weight: 200;
+    width: 30%;
+}
+.autor{
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold; 
+}
+.description-autor{
+    text-align: center;
+    color: rgb(0, 116, 170);
+    margin-top: 0.4%;
+    margin-bottom: 20%;
+}
+.blue-bg{
+    border-top: 9px solid #FED141;
+    background-color: #003057;
+    color: #FFFCFC;
+    width: 100%;
+}
+.roda-pe{
+    font-weight: 100;
+}
+.grid-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ul li a{
+    color: #FFFCFC;
 }
