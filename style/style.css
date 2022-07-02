@@ -27,6 +27,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 14px 68px;
+    border-bottom: #bebaba solid 3px;
 }
 .nav-spacing{
     height: 86px;
@@ -294,17 +295,16 @@ body{
     color: #5a5858;
 }
 .clientes{
-    font-size: 500%;
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border-bottom: 7px solid #003037;
-    padding-bottom: 2%;
+    border-bottom: #003057 solid 5px;
     position: relative;
     margin-bottom: 5%;
     font-family: 'habibi', serif;
-    font-weight: 200;
-    width: 350px;
+    font-weight: 400;
+    width: 120px;
 }
 .autor{
     text-align: center;
