@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Inter&display=swap');
 
 * {
     margin: 0;
@@ -138,8 +138,136 @@ body{
 
 .cp3-texto-h2 {
     border-bottom: #003057 solid 5px;
-    width: 186px;
+    width: 187px;
     font-size: 30px;
+}
+
+.cp4 {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: #FED141 solid 8px;
+    background: linear-gradient(180deg, rgba(0,48,87,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+.cp4-texto-h2 {
+    color: white; 
+    font-size: 30px;
+    margin: 70px 0 50px;
+    font-family: 'Habibi', serif;
+}
+
+.cp4-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    border-radius: 25px;
+    padding: 50px;
+    width: 80%;
+    gap: 10px;
+}
+
+.cp4-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+
+.cp4-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.cp5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cp5-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Habibi', serif;
+}
+
+.cp5-texto h2 {
+    font-size: 30px;
+    margin: 70px 0 30px;
+    border-bottom: #003057 solid 5px;
+}
+
+.cp5-texto p {
+    margin: 0 0 40px;
+    width: 450px;
+    text-align-last: center;
+    font-size: 18px;
+}
+
+.cp5-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    gap: 25px;
+}
+
+.cp5-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 40px;
+}
+
+.cp5-item p {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 100;
+    width: 200px;
+    height: 70px;
+}
+
+.cp5-item-1 {
+    background-color: #c79cc8;
+    box-shadow: 15px 30px 50px -10px #a37ba3;
+}
+
+.cp5-item-2 {
+    background-color: #a89cc8;
+    box-shadow: 15px 30px 50px -10px #857c9e;
+}
+
+.cp5-item-3 {
+    background-color: #9bb2e1;
+    box-shadow: 15px 30px 50px -10px #7f93bb;
+}
+
+.cp5-item-4 {
+    background-color: #8cc9f0;
+    box-shadow: 15px 30px 50px -10px #76aaca;
+}
+
+.cp5-imgs {
+    width: 80px;
+    height: 80px;
+    margin: 20px
+}
+
+.cp5-i-img {
+    width: 100%;
 }
 
 .cp3-img {
