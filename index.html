@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Habibi&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Include Engenharia</title>
 </head>
     <body>
         <header class="cabecalho">
             <img class="c-logo" src="public/logo.svg" alt="Logo da Include Engenharia">
             <nav class="c-menu">
-                <a class="cm-item">Início</a>
+                <a class="cm-item" href="#inicio">Início</a>
                 <a class="cm-item" href="#quem-somos">Quem somos</a>
-                <a class="cm-item" href="#solucoes">Soluções</a>
-                <a class="cm-item">Clientes</a>
+                <a class="cm-item">Soluções</a>
+                <a class="cm-item" href="#clientes">Clientes</a>
                 <button class="c-botao">Fale conosco</button>
             </nav>
         </header>
+        <div id="inicio" class="nav-spacing"></div>
 
         <main class="conteudo-principal">
             <section class="cp1">
@@ -41,6 +45,7 @@
 
             <section class="cp3">
                 <div class="cp3-texto">
+                    <div class="nav-spacing"></div>
                     <h2 class="cp3-texto-h2">Quem somos</h2>
                     <p>
                         A Include Engenharia é uma empresa júnior do Centro de 
@@ -120,6 +125,37 @@
                     </div>
                 </main>
             </section>
+            
+            <section id="clientes" class="section">
+                <div class="nav-spacing"></div>
+                <div class="title-clients">
+                    <h1 class="clientes">Clientes</h1>
+                </div>    
+                <p class="client-declaration">(...) vejo que o trabalho da produção Jr foi de grande contribuição para nosso crescimento e até mesmo desenvolvimento. Eles nos ajudaram a entender um pouquinho a nossa concorrência, a visão do nosso cliente e até mesmo enxergar que a nossa forma de divulgação nas redes sociais estava totalmente equivocada. Gostamos muito do trabalho da sua equipe, da forma comprometida de atuarem e ficamos muito satisfeitos com a entrega. Super recomendo principalmente pelo custo benefício . Faria tudo de novo.</p>
+                <p class="autor">Marcelle</p>
+                <p class="description-autor">Naturalíssimo</p>
+            </section>
+            <section class="section blue-bg">
+                <footer>
+                    <div class="grid-one">
+                        <div class="col1">
+                            <h1>Mapa do site</h1>
+                            <ul>
+                                <li><a href="#inicio">Início</a></li>
+                                <li><a href="#quem-somos">Quem somos</a></li>
+                                <li><a href="#">Soluções</a></li>
+                                <li><a href="#clientes">Clientes</a></li>
+                                <li><a href="#">Fale conosco</a></li>
+                            </ul>
+                        </div>
+                        <div class="col2">
+                            <h1>Informações</h1>
+                            <p>Centro de Tecnologia - S/N – Campus Universitário Lagoa Nova – Natal, RN</p>
+                            <p>(84) 9 9626-7091</p>
+                            <p>include.engenharia@gmail.com</p>
+                        </div>
+                    </div>
+                </footer>
         </main>
     </body>
 </html>
