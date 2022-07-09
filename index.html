@@ -12,6 +12,11 @@
     <body>
         <header class="cabecalho">
             <img class="c-logo" src="public/logo.svg" alt="Logo da Include Engenharia">
+            <div class="menu-hamb">
+                <div class="menu-h1"></div>
+                <div class="menu-h2"></div>
+                <div class="menu-h3"></div>
+            </div>
             <nav class="c-menu">
                 <a class="cm-item" href="#inicio">Início</a>
                 <a class="cm-item" href="#quem-somos">Quem somos</a>
@@ -45,7 +50,6 @@
 
             <section class="cp3">
                 <div class="cp3-texto">
-                    <div class="nav-spacing"></div>
                     <h2 class="cp3-texto-h2">Quem somos</h2>
                     <p>
                         A Include Engenharia é uma empresa júnior do Centro de 
@@ -64,30 +68,30 @@
                 </header>
                 <section class="cp4-itens">
                     <div class="cp4-item">
-                        <header>
-                            <img src="public/mob.JPG" alt="imagen ilustrativa">
+                        <header class="cp4-i-imgs">
+                            <img src="public/mob.JPG" alt="imagen ilustrativa" class="cp4-i-img">
                         </header>
                         <main class="cp4-texto">
                             <h3>Desenvolvimento Mobile</h3>
-                            <p>Softwares para dispositivos mobile personalizados às suas necessidades.</p>
+                            <p class="cp4-t-p">Softwares para dispositivos mobile personalizados às suas necessidades.</p>
                         </main>
                     </div>
                     <div class="cp4-item">
-                        <header>
-                            <img src="public/wifi.JPG" alt="imagen ilustrativa">
+                        <header class="cp4-i-imgs">
+                            <img src="public/wifi.JPG" alt="imagen ilustrativa" class="cp4-i-img">
                         </header>
                         <main class="cp4-texto">
                             <h3>Otimização de Wi-fi</h3>
-                            <p>Consultoria e soluções para melhorar o desempenho e a segurança da sua rede Wi-fi.</p>
+                            <p class="cp4-t-p">Consultoria e soluções para melhorar o desempenho e a segurança da sua rede Wi-fi.</p>
                         </main>
                     </div>
                     <div class="cp4-item">
-                        <header>
-                            <img src="public/auto.JPG" alt="imagen ilustrativa">
+                        <header class="cp4-i-imgs">
+                            <img src="public/auto.JPG" alt="imagen ilustrativa" class="cp4-i-img">
                         </header>
                         <main class="cp4-texto">
                             <h3>Automação Residencial</h3>
-                            <p>Projetos de automação para facilitar tarefas diárias, otimizando seu tempo.</p>
+                            <p class="cp4-t-p">Projetos de automação para facilitar tarefas diárias, otimizando seu tempo.</p>
                         </main>
                     </div>
                 </section>
@@ -144,7 +148,7 @@
                             <ul>
                                 <li><a href="#inicio">Início</a></li>
                                 <li><a href="#quem-somos">Quem somos</a></li>
-                                <li><a href="#">Soluções</a></li>
+                                <li><a href="#solucoes">Soluções</a></li>
                                 <li><a href="#clientes">Clientes</a></li>
                                 <li><a href="#">Fale conosco</a></li>
                             </ul>
@@ -159,5 +163,7 @@
                 </footer>
             </section>
         </main>
+
+        <script src="/script/menu.js"></script>
     </body>
 </html>
