@@ -483,12 +483,17 @@ ul li{
     .menu-hamb {
         width: 40px;
         height: 30px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background-color: #fff;
+        gap: 5px;
     }
     .menu-h1, .menu-h2, .menu-h3 {
         background-color: #003057;
         height: 5px;
         border-radius: 2.5px;
-        margin: 5px auto;
+        padding: 2px;
         width: 100%;
         transition-duration: 0.4s;
     }
@@ -513,12 +518,12 @@ ul li{
         top: 23px;
     }
     .cabecalho.cliked .menu-hamb .menu-h1{
-        transform: rotate(30deg) translate(10px);
-        width: 20px;
+        transform: rotate(-40deg) translate(-5px);
+        width: 25px;
     }
     .cabecalho.cliked .menu-hamb .menu-h3{
-        transform: rotate(-30deg) translate(10px);
-        width: 20px;
+        transform: rotate(40deg) translate(-5px);
+        width: 25px;
     }
     .cabecalho.cliked .c-menu .cm-item{
         display: block;
