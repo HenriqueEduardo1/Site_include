@@ -3,7 +3,7 @@ let menu_on = true;
 const cabecalho = document.querySelector(".cabecalho")
 const menuHamb = document.querySelector(".menu-hamb")
 
-menuHamb.addEventListener("click", () => {
+menuHamb.addEventListener("touchstart", () => {
     document.body.style.overflow = menu_on ? "hidden" : "initial"
     cabecalho.classList.toggle("cliked", menu_on)
     menu_on = !menu_on;
