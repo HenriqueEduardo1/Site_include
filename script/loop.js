@@ -1,4 +1,4 @@
-let tempo = 5000
+let tempo = 8000
 let clienteAtual = 0
 let clientes = document.querySelectorAll(".loop-clientes div")
 let maxClientes = clientes.length - 1
