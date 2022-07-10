@@ -28,6 +28,10 @@ body{
     padding: 14px 68px;
     border-bottom: #bebaba solid 3px;
 }
+
+.onInicio:hover, .onQSomos:hover, .onSolucoes:hover, .onClientes:hover {
+    color: #FED141;
+}
 .nav-spacing{
     height: 15vh;
 }
@@ -509,7 +513,7 @@ ul li{
     .cabecalho.cliked .menu-hamb{
         position: absolute;
         right: 68px;
-        top: 23px;
+        top: calc((15vh / 2) - 17px);
     }
     .cabecalho.cliked .menu-hamb .menu-h1{
         transform: rotate(-40deg) translate(-5px);
