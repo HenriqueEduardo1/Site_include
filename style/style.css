@@ -49,14 +49,9 @@ body{
     color: black;
 }
 
-.c-botao {
+.onFaleConosco {
     background-color: #FED141;
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
+    padding: 12px 40px;
     border-radius: 25px;
 }
 
@@ -416,9 +411,8 @@ ul li{
     .cm-item, .cp2-texto-p {
         font-size: 15px;
     }
-    .c-botao {
-        width: 150px;
-        height: 35px;
+    .onFaleConosco {
+        padding: 10px 35px;
         font-size: 15px;
         border-radius: 18px
     }
@@ -531,15 +525,6 @@ ul li{
         font-size: 18px;
         transition: 0.5s;
         margin-bottom: 40px;
-    }
-    .cabecalho.cliked .c-menu .c-botao{
-        display: block;
-        margin: 0 auto;
-        width: 170px;
-        height: 45px;
-        font-size: 18px;
-        border-radius: 23px;
-        transition: 0.5s;
     }
 }
 
