@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Habibi&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <title>Include Engenharia</title>
 </head>
     <body>
@@ -42,7 +43,7 @@
             </section>
 
             <section id="quem-somos" class="cp2">
-                <div class="cp2-infos">
+                <div class="cp2-infos" data-aos="fade-up">
                     <div class="cp2-texto info-ativo">
                         <h1 class="cp2-texto-h1">+35</h1>
                         <p class="cp2-texto-p">Projetos realizados</p>
@@ -64,8 +65,8 @@
 
             <section class="cp3">
                 <div class="cp3-texto">
-                    <h2 class="cp3-texto-h2">Quem somos</h2>
-                    <p>
+                    <h2 class="cp3-texto-h2" data-aos="fade-right">Quem somos</h2>
+                    <p data-aos="fade-right">
                         A Include Engenharia é uma empresa júnior do Centro de 
                         Tecnologia da Universidade Federal do Rio Grande do Norte. 
                         Somos dedicados à promoção da vivência empresarial aos
@@ -73,14 +74,14 @@
                         da Computação, Engenharia Mecatrônica e Engenharia de Telecomunicações
                     </p>
                 </div>
-                <img class="cp3-img" src="public/img-membros.svg" alt="Imagem dos membros">
+                <img class="cp3-img" src="public/img-membros.svg" alt="Imagem dos membros" data-aos="fade-up">
             </section>
 
             <section class="cp4" id="solucoes">
                 <header class="cp4-texto-h2">
                     <h2>Soluções</h2>
                 </header>
-                <section class="cp4-itens">
+                <section class="cp4-itens" data-aos="fade-up">
                     <div class="cp4-item">
                         <header class="cp4-i-imgs">
                             <img src="public/mob.JPG" alt="imagen ilustrativa" class="cp4-i-img">
@@ -117,25 +118,25 @@
                     <p>Estudantes apaixonados por engenharia e dispostos a encarar desafios.</p>
                 </header>
                 <main class="cp5-itens">
-                    <div class="cp5-item cp5-item-1">
+                    <div class="cp5-item cp5-item-1" data-aos="fade-right">
                         <div class="cp5-imgs">
                             <img src= "public/PC.jpg" alt="imagen ilustrativa" class="cp5-i-img">
                         </div>
                         <p>Ciência e Tecnologia</p>
                     </div>
-                    <div class="cp5-item cp5-item-2">
+                    <div class="cp5-item cp5-item-2" data-aos="fade-right">
                         <div class="cp5-imgs">
                             <img src= "public/COMP.jpg" alt="imagen ilustrativa" class="cp5-i-img">
                         </div>
                         <p>Engenharia da Computação</p>
                     </div>
-                    <div class="cp5-item cp5-item-3">
+                    <div class="cp5-item cp5-item-3" data-aos="fade-left">
                         <div class="cp5-imgs">
                             <img src= "public/MEC.jpg" alt="imagen ilustrativa" class="cp5-i-img">
                         </div>
                         <p>Engenharia Mecatrônica</p>
                     </div>
-                    <div class="cp5-item cp5-item-4">
+                    <div class="cp5-item cp5-item-4" data-aos="fade-left">
                         <div class="cp5-imgs">
                             <img src= "public/TELECOM.jpg" alt="imagen ilustrativa" class="cp5-i-img">
                         </div>
@@ -147,9 +148,9 @@
             <section id="clientes" class="section">
                 <div class="nav-spacing"></div>
                 <div class="title-clients">
-                    <h2 class="clientes">Clientes</h2>
+                    <h2 class="clientes" data-aos="fade-right">Clientes</h2>
                 </div>
-                <div class="loop-clientes">
+                <div class="loop-clientes" data-aos="fade-left">
                     <div class="cliente-1 cliente-ativo">
                         <p class="client-declaration">(...) vejo que o trabalho da produção Jr foi
                             de grande contribuição para nosso crescimento e até mesmo desenvolvimento. 
@@ -225,5 +226,9 @@
         </footer>
         <script src="script/menu.js" defer></script>
         <script src="script/loop.js" defer></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
