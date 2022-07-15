@@ -350,12 +350,7 @@ body{
     margin-top: 4%;
     font-weight: bold; 
 }
-.description-autor{
-    text-align: center;
-    color: rgb(0, 116, 170);
-    margin-top: 0.4%;
-    margin-bottom: 20%;
-}
+
 .blue-bg{
     border-top: 9px solid #FED141;
     background-color: #003057;
