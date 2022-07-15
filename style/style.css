@@ -106,9 +106,6 @@ body{
     top: 93vh;
 }
 
-.cp2-bolinhas {
-}
-
 .cp2-infos {
     display: flex;
     justify-content: space-evenly;
@@ -599,7 +596,7 @@ ul li{
     .cp2{
         box-shadow: 0 0 30px -10px #525252;
         top: 105vh;
-        width: 50vw;
+        width: 70vw;
     }
     .cp2-texto-h1 {
         font-size: 28px;
